@@ -1,0 +1,91 @@
+
+*{
+    margin-top:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+
+.feature-img{
+    left: 850px;
+    top:130px; 
+    height: 460px;
+    position: absolute;
+}
+
+.content h1{
+    font-size: 60px;
+    font-weight: normal;
+    margin-top: 24px;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    
+ }
+ .content h1 span{
+    color: #359756;
+ }
+ 
+ .content{
+    margin-left: 10%;
+    margin-top: 10%;
+ }
+ .content .btn{
+   
+    background: #359756;
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+     
+ }
+.buttons{
+    margin-bottom: 100px;
+    font-weight: bold;
+}
+.buttons .btn1{
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    background: #359756;
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 1%;
+     
+ }
+ .buttons .btn2{
+     margin-top: 50px;
+     display: inline-block;
+     background: transparent;
+     border-radius: 6px;
+     padding: 10px 30px;
+     box-sizing: border-box;
+     text-decoration: none;
+     color: white;
+     border-color: #ffffff;
+     border-style: solid;
+     border-width: thin;
+     
+ }
+ .buttons .btn1:hover,
+ .buttons .btn1#active {
+    background:rgb(255, 255, 255);
+    color:#000000;
+    border: 0;
+    box-shadow: 0 0 3px #ffe205
+              , 0 0 7px #ffe205
+              , 0 0 20px #edd
+ }
+
